@@ -1,0 +1,24 @@
+app:
+  topic:
+    name: equities
+    
+    
+kafka:
+  consumer:
+    bootstrap-servers: localhost:9092
+    schema-registry-url: http://localhost:8081
+
+management:
+  endpoint:
+    beans:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+spring:
+  kafka:
+    properties:
+      
+        

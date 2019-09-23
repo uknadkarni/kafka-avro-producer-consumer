@@ -1,0 +1,15 @@
+{
+  "namespace": "com.github.uknadkarni.kafka.model",
+  "type": "record",
+  "name": "Equity",
+  "fields": [
+    {
+      "name": "ticker",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    }
+  ]
+}

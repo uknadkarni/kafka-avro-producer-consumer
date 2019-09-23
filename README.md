@@ -1,19 +1,19 @@
 # kafka-avro-producer-consumer
 Kafka Producer and Consumer with Avro Schemas
 
-Start the Confluent Platform . 
-Instructions to download and install the Confluent Platform are available [here] . (https://docs.confluent.io/current/quickstart/ce-quickstart.html)
+Start the Confluent Platform .   
+Instructions to download and install the Confluent Platform are available [here] .    (https://docs.confluent.io/current/quickstart/ce-quickstart.html)
   
 Start ElasticSearch .  
 
-List topics to show that there are no topics created yet . 
+List topics to show that there are no topics created yet .   
 	```kafka-topics --list --zookeeper localhost:2181 | grep equities``` . 
-Show that Schema Registry has no schemas . 
-	```localhost:8081/schemas/ids/1``` . 
-Start Spring Boot Microservice . 
-List topics to show that there is topic called equities . 
-	```kafka-topics --list --zookeeper localhost:2181 | grep equities``` .   
-Show that Schema Registry has a schema with id=1 . 
+Show that Schema Registry has no schemas .    
+	```localhost:8081/schemas/ids/1``` .    
+Start Spring Boot Microservice .    
+List topics to show that there is topic called equities .    
+	```kafka-topics --list --zookeeper localhost:2181 | grep equities``` .      
+Show that Schema Registry has a schema with id=1 .    
 	```localhost:8081/schemas/ids/1``` .  
 ```POST``` a message to the Spring Boot App .  
 	```localhost:8080/equities``` .     

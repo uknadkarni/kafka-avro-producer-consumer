@@ -2,7 +2,7 @@
 Kafka Producer and Consumer with Avro Schemas
 
 Start the Confluent Platform
-Instructions to download and install the Confluent Platform are available [here.] (https://docs.confluent.io/current/quickstart/ce-quickstart.html)
+Instructions to download and install the Confluent Platform are available [here](https://docs.confluent.io/current/quickstart/ce-quickstart.html)
 Start ElasticSearch
 
 List topics to show that there are no topics created yet

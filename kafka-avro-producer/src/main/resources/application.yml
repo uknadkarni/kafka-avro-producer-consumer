@@ -6,7 +6,7 @@ app:
 kafka:
   producer:
     bootstrap-servers: localhost:9092
-    schema-registry-url: http://localhost:8081
+    schema-registry-url: http://localhost:8080
 
 management:
   endpoint:

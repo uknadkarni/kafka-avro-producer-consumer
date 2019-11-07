@@ -17,8 +17,6 @@ management:
       exposure:
         include: "*"
         
-spring:
-  kafka:
-    properties:
+
       
         

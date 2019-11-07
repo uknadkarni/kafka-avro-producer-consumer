@@ -18,7 +18,7 @@ List topics to show that there is topic called equities .
 	```kafka-topics --list --zookeeper localhost:2181 | grep equities``` .      
 
 Show that Schema Registry has a schema with id=1 .    
-	```localhost:8081/schemas/ids/1``` .  
+	```curl localhost:8081/schemas/ids/1``` .  
 
 ```POST``` a message to the Spring Boot App .  
 	```localhost:8080/equities``` .     

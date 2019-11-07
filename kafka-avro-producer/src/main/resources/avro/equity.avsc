@@ -5,7 +5,8 @@
   "fields": [
     {
       "name": "ticker",
-      "type": "string"
+      "type": "string",
+      "avro.java.string": "String"
     },
     {
       "name": "price",
